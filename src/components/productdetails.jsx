@@ -12,7 +12,7 @@ function ProductDetails({userAuthentic}) {
 }
 else if (!userAuthentic || (snglprolist.category)==undefined) {
   setSnglprolist({})
-  window.location.href='/productdisplay'
+  window.location.href='https://hasanuidesigner.github.io/productdisplay'
 }
 },[id])
     

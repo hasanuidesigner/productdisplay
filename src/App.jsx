@@ -69,7 +69,7 @@ function App() {
     setUserAuthentic(false)
     setPrfl([])
     setLoginflds({})
-    window.location.href="/productdisplay"
+    window.location.href="https://hasanuidesigner.github.io/productdisplay"
   }
   const loginSubmitted = (e) => {
     e.preventDefault();
