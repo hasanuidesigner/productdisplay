@@ -1,6 +1,7 @@
 {
   "name": "shopcart",
   "private": true,
+  "homepage":"https://hasanuidesigner.github.io/productdisplay/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
