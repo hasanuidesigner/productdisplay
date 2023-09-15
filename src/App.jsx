@@ -69,7 +69,7 @@ function App() {
     setUserAuthentic(false)
     setPrfl([])
     setLoginflds({})
-    window.location.href="/"
+    window.location.href="/productdisplay"
   }
   const loginSubmitted = (e) => {
     e.preventDefault();

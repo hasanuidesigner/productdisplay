@@ -12,7 +12,7 @@ function ProductDetails({userAuthentic}) {
 }
 else if (!userAuthentic || (snglprolist.category)==undefined) {
   setSnglprolist({})
-  window.location.href='/'
+  window.location.href='/productdisplay'
 }
 },[id])
     
