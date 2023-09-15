@@ -1,0 +1,83 @@
+[
+    {
+        "caregoryId": 1,
+        "caregoryName": "electronics",
+        "categories": [
+            {
+                "phones": [
+                    {
+                        "productId": 1,
+                        "productName": "Phone 1",
+                        "productDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                        "productPrice": "1200",
+                        "productRate": "4.5",
+                        "productType": "Phone"
+                    },
+                    {
+                        "productId": 2,
+                        "productName": "Phone 2",
+                        "productDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                        "productPrice": "1200",
+                        "productRate": "4.5",
+                        "productType": "Phone"
+                    }
+                ],
+                "tvs": [
+                    {
+                        "productId": 1,
+                        "productName": "TV 1",
+                        "productDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                        "productPrice": "1200",
+                        "productRate": "4.5",
+                        "productType": "tv"
+                    },
+                    {
+                        "productId": 2,
+                        "productName": "TV 2",
+                        "productDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                        "productPrice": "1200",
+                        "productRate": "4.5",
+                        "productType": "tv"
+                    }
+                ]
+                ,
+                "laptops": [
+                    {
+                        "productId": 1,
+                        "productName": "Laptop 1",
+                        "productDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                        "productPrice": "1200",
+                        "productRate": "4.5",
+                        "productType": "Laptop"
+                    },
+                    {
+                        "productId": 2,
+                        "productName": "Laptop 2",
+                        "productDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                        "productPrice": "1200",
+                        "productRate": "4.5",
+                        "productType": "Laptop"
+                    }
+                ],
+                "harddisks": [
+                    {
+                        "productId": 1,
+                        "productName": "Harddisk 1",
+                        "productDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                        "productPrice": "1200",
+                        "productRate": "4.5",
+                        "productType": "Harddisk"
+                    },
+                    {
+                        "productId": 2,
+                        "productName": "Harddisk 2",
+                        "productDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                        "productPrice": "1200",
+                        "productRate": "4.5",
+                        "productType": "Harddisk"
+                    }
+                ]
+            }
+        ]
+    }
+]

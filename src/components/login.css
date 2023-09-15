@@ -1,0 +1,28 @@
+.login-wrapper {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrapper-in {
+    width: 90%;
+    margin: auto;
+    max-width: 500px;
+    background-image: linear-gradient(var(--site-primary),var(--site-secondary));
+    padding: 0px 20px;
+    border-radius: 20px;
+}
+
+.login-wrapper-in > .heading{
+ padding: 8px 8px 12px;
+ text-align: center;
+ font-size: 20px;
+ border-bottom: var(--site-fourth) solid 1px;
+}
+.btn-group-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

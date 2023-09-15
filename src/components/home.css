@@ -1,0 +1,28 @@
+.login-success,
+.reg-success {
+    width: 100%;
+    max-width: 300px;
+    position: absolute;
+    top: -200px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 4;
+    transition: all 1.5s;
+}
+
+.login-success.show,
+.reg-success.show {
+    top: 10px;
+}
+
+.portalPop-bg {
+    background-color: var(--first-color);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    z-index: 3; 
+}

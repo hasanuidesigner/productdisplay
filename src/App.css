@@ -1,0 +1,132 @@
+:root{
+    --first-color:#557b83;
+    --second-color:#39aea9;
+    --third-color:#a2d5ab;
+    --fourth-color:#e5efc1;
+} 
+
+body.scrlStop{
+    overflow: hidden;
+}
+
+.navbar-cstm{
+    background-color: var(--first-color);
+    color:#fff
+}
+
+.navbar-cstm .navbar-nav .nav-link{
+    color: #fff;
+}
+
+a.nav-link.active {
+    font-weight: 700; 
+}
+
+a.navbar-brand:link,a.navbar-brand:visited {
+    color: var(--fourth-color);
+}
+
+.btn-color,.btn-color:hover,.btn-color:active,.btn-color:focus{
+    background-color: var(--third-color);
+    color:#33565c;
+    border-color: var(--third-color);
+}
+
+.page-cnt-wrap {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pagination-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.pagin-link,.pagin-link-prev,.pagin-link-next{
+    background-color: var(--second-color);
+    color: var(--fourth-color);
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin: 0 2px;
+    border: none;
+    line-height: normal;
+    text-decoration: none;
+    cursor: pointer;
+    border: var(--second-color) solid 1px;
+}
+.pagin-link.active {
+    background-color: transparent;
+    color:var(--first-color);
+    border: var(--first-color) solid 1px;
+}
+
+
+img.imgCss {
+    max-width: 80%;
+    height: 200px;
+    margin: 20px auto auto;
+}
+.card {
+    margin-bottom: 15px;
+    cursor: pointer;
+    border: var(--first-color) solid 1px;
+}
+.card-header {
+    border-color: var(--first-color)x;
+    background-color: var(--first-color);
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: var(--first-color);
+    background-color: var(--first-color);
+    color: #fff;
+}
+a:link{
+    text-decoration: none;
+}
+ 
+.list-group-item{
+    cursor: pointer;
+    border-color: var(--first-color);
+    color:var(--first-color);
+}
+.list-group-item.active{
+    background-color: var(--second-color);
+    border-color: var(--second-color);
+    color: #fff;
+}
+.list-group-item:hover{
+    background-color: var(--second-color);
+    color: #fff;
+    border-top-color: var(--first-color);
+    border-bottom-color: var(--first-color);
+}
+ 
+.item-per-page-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+.itemsnumDropdown {
+    background-color: var(--first-color);
+    color: var(--fourth-color);
+    min-width: 80px;
+    border: var(--first-color) solid 1px;
+    border-radius: 3px;
+    padding: 0 5px;
+    outline: none;
+}
+.ask-to-auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}

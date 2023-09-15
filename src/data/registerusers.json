@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "firstname": "Hasan",
+        "username": "admin1",
+        "password":"123456",
+        "privilege":"admin"
+    },
+    {
+        "id": 2,
+        "firstname": "Alex",
+        "username": "user1",
+        "password":"123456",
+        "privilege":"admin"
+    },
+    {
+        "id": 3,
+        "firstname": "Ravi",
+        "username": "user2",
+        "password":"123456",
+        "privilege":"user"
+    }
+]
