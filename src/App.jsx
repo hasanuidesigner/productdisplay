@@ -132,7 +132,7 @@ function App() {
     {reginpop && createPortal(<div className="portalPop-bg"><UserRegiter clsReguser={clsReguser}/></div>,document.body)}
 
   
-    <BrowserRouter>
+    <BrowserRouter basename='/productdisplay'>
       <Navbar openLogin={openLogin} openReguser={openReguser} prfl={prfl} userAuthentic={userAuthentic} sessionLogout={sessionLogout} />
       <div className='page-cnt-wrap'> 
       <Routes>
