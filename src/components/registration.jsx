@@ -49,7 +49,7 @@ function UserRegiter({clsReguser}) {
                 <form onSubmit={regformSubmitted}>
                 <div className="mb-3">
                         <label className="form-label">Id</label>
-                        <input type="number" ref={newaddRef} name="id" className="form-control" required value={setAdduser.id} onChange={regfldHandle} />
+                        <input type="number" ref={newaddRef} name="id" className="form-control" required value={4} disabled onChange={regfldHandle} />
                     </div>
                 <div className="mb-3">
                         <label className="form-label">Name:</label>
