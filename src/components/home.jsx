@@ -178,7 +178,7 @@ function Home({ userAuthentic,openLogin }) {
                 </div>
             </>
             : <div className="ask-to-auth"><div className="alert alert-warning" role="alert">
-               You need authentication to view this page. Please <strong onClick={openLogin}>Login</strong> . For testing purpose you can use the below credential as of now.<div><strong>Username:</strong> user2, <strong>Password:</strong> 123456</div>
+               You need authentication to view this page. Please <strong onClick={openLogin} style={{cursor:"pointer"}}>Login</strong> . For testing purpose you can use the below credential as of now.<div><strong>Username:</strong> user2, <strong>Password:</strong> 123456</div>
           </div></div>}
     </>
 }
