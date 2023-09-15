@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import './home.css'
 import { Link } from "react-router-dom";
 
-function Home({ userAuthentic }) {
+function Home({ userAuthentic,openLogin }) {
     const [prolist, setProlist] = useState([])
     const [fltrprolist, setFltrprolist] = useState([])
     const [isfiltered, setIsfiltered] = useState(false)
@@ -178,7 +178,7 @@ function Home({ userAuthentic }) {
                 </div>
             </>
             : <div className="ask-to-auth"><div className="alert alert-warning" role="alert">
-               You need authentication to view this page. Please <strong>Login</strong> . For testing purpose you can use the below credential as of now.<div><strong>Username:</strong> user2, <strong>Password:</strong> 123456</div>
+               You need authentication to view this page. Please <strong onClick={openLogin}>Login</strong> . For testing purpose you can use the below credential as of now.<div><strong>Username:</strong> user2, <strong>Password:</strong> 123456</div>
           </div></div>}
     </>
 }

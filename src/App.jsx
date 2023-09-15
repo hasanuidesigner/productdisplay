@@ -136,9 +136,9 @@ function App() {
       <Navbar openLogin={openLogin} openReguser={openReguser} prfl={prfl} userAuthentic={userAuthentic} sessionLogout={sessionLogout} />
       <div className='page-cnt-wrap'> 
       <Routes>
-        <Route exact path='/' element={<Home prfl={prfl} userAuthentic={userAuthentic} />} ></Route>
+        <Route exact path='/' element={<Home prfl={prfl} userAuthentic={userAuthentic} openLogin={openLogin} />} ></Route>
         <Route path='/aboutus' element={<AboutUs/>} ></Route>
-        <Route path='/product/:id' element={<ProductDetails userAuthentic={userAuthentic} />} ></Route>
+        <Route path='/product/:id' element={<ProductDetails userAuthentic={userAuthentic} openLogin={openLogin} />} ></Route>
         <Route path='/allproducts' element={<Allproducts/>} ></Route>
       </Routes>
       </div>

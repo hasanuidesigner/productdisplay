@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import {useParams} from "react-router-dom"
 
-function ProductDetails({userAuthentic}) {
+function ProductDetails({userAuthentic,openLogin}) {
     const {id} = useParams();
     const [snglprolist, setSnglprolist] = useState({})
     useEffect(()=>{
@@ -31,7 +31,7 @@ return<> {console.log(snglprolist.category)}
 </div> 
 </div>
 </> :<div className="ask-to-auth"><div className="alert alert-warning" role="alert">
-               You need authentication to view this page. Please <strong>Login</strong> . For testing purpose you can use the below credential as of now.<div><strong>Username:</strong> user2, <strong>Password:</strong> 123456</div>
+               You need authentication to view this page. Please <strong onClick={openLogin}>Login</strong> . For testing purpose you can use the below credential as of now.<div><strong>Username:</strong> user2, <strong>Password:</strong> 123456</div>
           </div></div>
 }
 </>
